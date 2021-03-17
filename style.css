@@ -1,0 +1,281 @@
+body{
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.ochtend{
+    background-color: rgb(171, 220, 240);
+}
+
+.nacht{
+    background-color: black;
+    color: white;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    height: 10%;
+}
+
+#time{
+    font-size: 36pt;
+    font-family: "Open Sans";
+}
+
+
+@media screen and (min-width: 1280px){
+    .elevenam{
+        top: 50px;
+        right: 100px;
+    }
+
+    .tenam{
+        top: 100px;
+        right: 200px;
+    }
+
+    .nineam{
+        top: 150px;
+        right: 300px;
+    }
+
+    .eightam{
+        top: 200px;
+        right: 400px;
+    }
+
+    .sevenam{
+        top: 250px;
+        right: 500px;
+    }
+
+    .twelveam{
+        top: 0px;
+        right: 0px;
+    }
+
+    .onepm{
+        top: 50px;
+        right: -100px;
+    }
+
+    .twopm{
+        top: 100px;
+        right: -200px;
+    }
+
+    .threepm{
+        top: 150px;
+        right: -300px;
+    }
+
+    .fourpm{
+        top: 200px;
+        right: -400px;
+    }
+
+    .fivepm{
+        top: 250px;
+        right: -500px;
+    }
+
+    .nosun{
+        background-color: black;
+    }
+
+    img{
+        width: 100%;
+    }
+
+    #sky{
+        height: 40%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .sun{
+        position: relative;
+        margin-top: 50px;
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        background-color: yellow;
+    }
+}       
+
+@media screen and (max-width: 600px){
+    #container{
+        display: flex;
+        justify-content: center;
+        height: 10%;
+    }
+    
+    #sky{
+        height: 40%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    img{
+        width: 100%;
+    }
+
+    #ground{
+        position: relative;
+        top: 30%;
+    }
+    .elevenam{
+        top: 50px;
+        right: 20px;
+    }
+
+    .tenam{
+        top: 100px;
+        right: 40px;
+    }
+
+    .nineam{
+        top: 150px;
+        right: 60px;
+    }
+
+    .eightam{
+        top: 200px;
+        right: 80px;
+    }
+
+    .sevenam{
+        top: 250px;
+        right: 100px;
+    }
+
+    .twelveam{
+        top: 0px;
+        right: 0px;
+    }
+
+    .onepm{
+        top: 50px;
+        right: -20px;
+    }
+
+    .twopm{
+        top: 100px;
+        right: -40px;
+    }
+
+    .threepm{
+        top: 150px;
+        right: -60px;
+    }
+
+    .fourpm{
+        top: 200px;
+        right: -80px;
+    }
+
+    .fivepm{
+        top: 250px;
+        right: -100px;
+    }
+
+    .sun{
+        position: relative;
+        margin-top: 50px;
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        background-color: yellow;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1280px){
+    #container{
+        display: flex;
+        justify-content: center;
+        height: 10%;
+    }
+    
+    #sky{
+        height: 40%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    img{
+        width: 100%;
+    }
+
+    #ground{
+        position: relative;
+        top: 30%;
+    }
+    .elevenam{
+        top: 50px;
+        right: 50px;
+    }
+
+    .tenam{
+        top: 100px;
+        right: 100px;
+    }
+
+    .nineam{
+        top: 150px;
+        right: 150px;
+    }
+
+    .eightam{
+        top: 200px;
+        right: 200px;
+    }
+
+    .sevenam{
+        top: 250px;
+        right: 250px;
+    }
+
+    .twelveam{
+        top: 0px;
+        right: 0px;
+    }
+
+    .onepm{
+        top: 50px;
+        right: -50px;
+    }
+
+    .twopm{
+        top: 100px;
+        right: -100px;
+    }
+
+    .threepm{
+        top: 150px;
+        right: -150px;
+    }
+
+    .fourpm{
+        top: 200px;
+        right: -200px;
+    }
+
+    .fivepm{
+        top: 250px;
+        right: -250px;
+    }
+
+    .sun{
+        position: relative;
+        margin-top: 50px;
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        background-color: yellow;
+    }
+}
